@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Greetings.java&apos; to &apos;modularizing&apos;&#x0A;- Original project: &apos;greetings&apos;&#x0A;- Destination element: &apos;modularizing&apos;&#x0A;- Original element: &apos;Greetings.java&apos;&#x0A;- Update references to refactored element" description="Move file" element1="Greetings.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1638041643689" target="modularizing" units="0" version="1.0"/>
+</session>
