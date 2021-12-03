@@ -88,3 +88,63 @@ const matrixSearch = (arr,subArr) => {
 
 console.log(matrixSearch([ [12, 67, 45, 56],[98, 87, 76, 65],[56, 67, 78, 89],[54, 43, 32, 21] ], [ [67, 78], [43, 32] ])); // true
 console.log(matrixSearch([ [12, 34, 45, 56],[98, 87, 76, 65],[56, 67, 78, 89],[54, 43, 32, 21] ], [ [67, 78], [43, 21] ])); // false
+
+//Matthew
+function matrixSearch(arr, subArr) {
+        
+    let valid = false;
+    let subMatrixLength = subArr.length;
+    for (let row = 0; row < arr.length - (subMatrixLength - 1); row++) {
+        if (valid) break;
+
+        for (let column = 0; column < arr[row].length - (subMatrixLength - 1); column++) {
+            if (valid) break;
+
+            if (arr[row][column] == subArr[0][0]) {
+                valid = true;
+
+                for (let i = 0; i < subArr.length; i++) {
+                    for (let j = 0; j < subArr[i].length; j++) {
+                        if (arr[row + i][column + j] != subArr[i][j]){
+                            valid = false;
+                            break;
+                        }
+                    }
+
+                    if (!valid) {
+                        break;
+                    }
+                }
+            }
+        }
+    }
+
+    return valid;
+}
+
+//Devin
+function matrixSearch(arr, subArr) {
+    let x = 0;
+    let y = 0;
+    let finder = subArr[y][x]; // 67
+    for(let i = 0; i < arr.length; i++){
+        for(let j=0; j< arr[i].length; j++){
+            if(arr[i][j] == finder){
+                y = i;
+                x = j;
+                console.log("y: ", y, "x: ", x)
+            }
+        }
+    }
+    for(let i = 0; i < subArr.length; i++){ 
+        for(let j = 0; j< subArr[0].length; j++){ 
+            console.log(arr[y+i][x+j]);
+            console.log(subArr[i][j]);
+            if(arr[y+i][x+j] == subArr[i][j]){ 
+                console.log("loop ran");
+                console.log("")
+            }else{return false}
+        }
+    }
+    return true + "Holy cow!"
+}

@@ -39,6 +39,10 @@ public class Physician extends User implements HIPAACompliantUser {
 			return false;
 		}
 	}
+	@Override
+	public boolean assignPin(int pin) {
+		return this.assignPIN(pin);
+	}
 	
 
 

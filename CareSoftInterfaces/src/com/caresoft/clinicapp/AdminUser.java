@@ -6,12 +6,13 @@ public class AdminUser extends User implements HIPAACompliantUser, HIPAAComplian
 	
 	private Integer employeeId;
 	private String role;
-	private ArrayList<String> securityIncidents;
+	private ArrayList<String> securityIncidents = new ArrayList<String>();
+	
 	
 	public AdminUser(int id, String role) {
 		super(id);
-		employeeId= id;
-		role = role;	
+		this.employeeId= id;
+		this.role = role;	
 	}
     
     public Integer getEmployeeId() {
@@ -21,7 +22,7 @@ public class AdminUser extends User implements HIPAACompliantUser, HIPAAComplian
     	return role;
     }
     
-	}
+	
     
     
     public void setEmployeeId(int id) {
@@ -66,5 +67,17 @@ public class AdminUser extends User implements HIPAACompliantUser, HIPAAComplian
 	        );
 	        securityIncidents.add(report);
 	    }
+
+		@Override
+		public ArrayList<String> reportSecurityIncidents() {
+			
+			return this.securityIncidents;
+		}
+
+		@Override
+		public boolean assignPin(int pin) {
+			return this.assignPIN(pin);
+				
+		}
 
 }

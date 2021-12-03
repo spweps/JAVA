@@ -8214,3 +8214,45 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-01 19:03:17.702
 !MESSAGE executing callback sts4.classpath.XJGvToDc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-02 12:29:54.075
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-02 12:29:54.082
+!MESSAGE buffering callback sts4.classpath.XJGvToDc CareSoftInterfacePlatform true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-02 12:29:54.086
+!MESSAGE executing callback sts4.classpath.XJGvToDc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-02 12:29:54.107
+!MESSAGE executing callback sts4.classpath.XJGvToDc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-02 12:30:41.635
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-02 12:30:41.657
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-02 12:30:41.661
+!MESSAGE buffering callback sts4.classpath.XJGvToDc AbstractArt false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-02 12:30:41.661
+!MESSAGE executing callback sts4.classpath.XJGvToDc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-02 12:30:41.681
+!MESSAGE executing callback sts4.classpath.XJGvToDc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-02 14:22:35.463
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-02 14:22:35.466
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-02 14:22:35.467
+!MESSAGE buffering callback sts4.classpath.XJGvToDc Calculator false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-02 14:22:35.467
+!MESSAGE executing callback sts4.classpath.XJGvToDc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-02 14:22:35.475
+!MESSAGE executing callback sts4.classpath.XJGvToDc SUCCESS [done]
