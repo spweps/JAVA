@@ -18,7 +18,7 @@ public class Controller {
 	    }
 	    @RequestMapping("/tomorrow")
 	    public String world(){
-	      return "Tomorrow an opportunity will pass you will be powerless to stop it";
+	      return "Tomorrow an opportunity will pass you by that you will be powerless to stop";
 	    }
 	    @RequestMapping("/travel/busan")
 	    public String travel() {

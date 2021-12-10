@@ -2,16 +2,14 @@ package com.sw.FruityLoops.models;
 
 public class Item {
     
-    // MEMBER VARIABLES
-    private String name;
-    private double price;
+	private String name;
+	private double price;
+	
+	public Item(String name, double price) {
+		this.name = name;
+		this.price = price;
+	}
     
-    // CONSTRUCTOR
-    public Item(String name, double price) {
-        this.name = name;
-        this.price = price;
-    }
-
 	public String getName() {
 		return name;
 	}
