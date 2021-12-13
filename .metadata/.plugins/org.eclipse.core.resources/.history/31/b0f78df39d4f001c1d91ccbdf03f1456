@@ -1,7 +1,0 @@
-public class FirstJavaProject {
-	public static void main(String[] args) {
-		System.out.printIn("Coding Dojo");
-		System.out.printIn("I am 100 years old");
-		System.out.printIn("My hometown is Burbank, CA");
-	}
-}
