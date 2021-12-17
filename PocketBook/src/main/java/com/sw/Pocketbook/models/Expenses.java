@@ -10,21 +10,22 @@ import javax.persistence.Id;
 import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
 import javax.persistence.Table;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 import org.springframework.format.annotation.DateTimeFormat;
 @Entity
 @Table(name="expenses")
-public class PocketBook {
+public class Expenses {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @NotNull
+    @NotNull
     @Size(min = 5, max = 200, message="Must be at least 5 letters")
     private String vendor;
     @NotNull
-    @Size(min = 1, max = 200, message="Must have a value")
+    @Min(value=1, message="Must have a value")
     private Integer amount;
     @NotNull
     @Size(min = 5, max = 200, message = "Item must be at least 5 letters")
@@ -40,9 +41,9 @@ public class PocketBook {
     @DateTimeFormat(pattern="yyyy-MM-dd")
     private Date updatedAt;
     
-    public PocketBook() {
+    public Expenses() {
     }
-    public PocketBook(String vendor, String itemPurchased, Integer amount, String description) {
+    public Expenses(String vendor, String itemPurchased, Integer amount, String description) {
         this.vendor = vendor;
         this.itemPurchased = itemPurchased;
         this.amount = amount;
@@ -104,6 +105,4 @@ public class PocketBook {
 }
 
 
-public class PocketBook {
 
-}
