@@ -4412,3 +4412,135 @@ org.eclipse.swt.SWTException: Widget is disposed
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-16 21:38:32.460
 !MESSAGE executing callback sts4.classpath.kowuRHYo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 12:11:13.746
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 12:11:13.751
+!MESSAGE classpath=97 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 12:11:13.754
+!MESSAGE buffering callback sts4.classpath.kowuRHYo relationships false 97
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 12:11:13.755
+!MESSAGE executing callback sts4.classpath.kowuRHYo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 12:11:13.784
+!MESSAGE executing callback sts4.classpath.kowuRHYo SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-12-17 15:18:45.726
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:30.181
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:30.182
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:30.183
+!MESSAGE buffering callback sts4.classpath.kowuRHYo authentication false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:30.183
+!MESSAGE executing callback sts4.classpath.kowuRHYo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:30.210
+!MESSAGE executing callback sts4.classpath.kowuRHYo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:30.453
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:30.456
+!MESSAGE classpath=76 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:30.457
+!MESSAGE buffering callback sts4.classpath.kowuRHYo authentication false 76
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:30.458
+!MESSAGE executing callback sts4.classpath.kowuRHYo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:30.469
+!MESSAGE executing callback sts4.classpath.kowuRHYo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:30.742
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:30.745
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:30.747
+!MESSAGE buffering callback sts4.classpath.kowuRHYo authentication false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:30.747
+!MESSAGE executing callback sts4.classpath.kowuRHYo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:30.758
+!MESSAGE executing callback sts4.classpath.kowuRHYo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:32.777
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:32.780
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:32.781
+!MESSAGE buffering callback sts4.classpath.kowuRHYo authentication false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:32.782
+!MESSAGE executing callback sts4.classpath.kowuRHYo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:32.794
+!MESSAGE executing callback sts4.classpath.kowuRHYo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:32.841
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:32.843
+!MESSAGE classpath=76 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:32.845
+!MESSAGE buffering callback sts4.classpath.kowuRHYo authentication false 76
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:32.845
+!MESSAGE executing callback sts4.classpath.kowuRHYo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:32.854
+!MESSAGE executing callback sts4.classpath.kowuRHYo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:32.907
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:32.910
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:32.913
+!MESSAGE buffering callback sts4.classpath.kowuRHYo authentication false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:32.914
+!MESSAGE executing callback sts4.classpath.kowuRHYo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:00:32.924
+!MESSAGE executing callback sts4.classpath.kowuRHYo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:03:27.794
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:03:27.798
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:03:27.799
+!MESSAGE buffering callback sts4.classpath.kowuRHYo authentication false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:03:27.799
+!MESSAGE executing callback sts4.classpath.kowuRHYo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:03:27.810
+!MESSAGE executing callback sts4.classpath.kowuRHYo SUCCESS [done]
