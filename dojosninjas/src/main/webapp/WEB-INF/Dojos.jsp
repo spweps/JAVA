@@ -22,9 +22,11 @@
 	<c:forEach var="dojo" items="${dojos}">
 		<tr>
 			<td>${dojo.name}</td>
-		<c:forEach var = "ninja" items ="${ninjas}">
-			<td>${ninja.name}</td>
+			<td><ul>
+		<c:forEach var = "ninja" items ="${dojo.ninjas}">
+			<li>${ninja.firstName} ${ninja.lastName}</li>
 		</c:forEach>
+			</ul></td>
 			<td><a href="/dojo/edit/${dojo.id}">edit</a>
 			<form action="/dojo/${dojo.id}" method="post">
 				<input type="hidden" name="_method" value="delete">

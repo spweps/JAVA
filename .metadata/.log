@@ -4544,3 +4544,108 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-17 19:03:27.810
 !MESSAGE executing callback sts4.classpath.kowuRHYo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:42.114
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:42.135
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:42.136
+!MESSAGE buffering callback sts4.classpath.kowuRHYo richardsalgo false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:42.137
+!MESSAGE executing callback sts4.classpath.kowuRHYo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:42.240
+!MESSAGE executing callback sts4.classpath.kowuRHYo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:42.620
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:42.624
+!MESSAGE classpath=76 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:42.626
+!MESSAGE buffering callback sts4.classpath.kowuRHYo richardsalgo false 76
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:42.627
+!MESSAGE executing callback sts4.classpath.kowuRHYo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:42.645
+!MESSAGE executing callback sts4.classpath.kowuRHYo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:43.117
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:43.119
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:43.121
+!MESSAGE buffering callback sts4.classpath.kowuRHYo richardsalgo false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:43.121
+!MESSAGE executing callback sts4.classpath.kowuRHYo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:43.136
+!MESSAGE executing callback sts4.classpath.kowuRHYo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:45.516
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:45.518
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:45.520
+!MESSAGE buffering callback sts4.classpath.kowuRHYo richardsalgo false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:45.520
+!MESSAGE executing callback sts4.classpath.kowuRHYo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:45.531
+!MESSAGE executing callback sts4.classpath.kowuRHYo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:45.751
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:45.754
+!MESSAGE classpath=76 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:45.755
+!MESSAGE buffering callback sts4.classpath.kowuRHYo richardsalgo false 76
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:45.756
+!MESSAGE executing callback sts4.classpath.kowuRHYo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:45.767
+!MESSAGE executing callback sts4.classpath.kowuRHYo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:45.917
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:45.921
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:45.923
+!MESSAGE buffering callback sts4.classpath.kowuRHYo richardsalgo false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:45.924
+!MESSAGE executing callback sts4.classpath.kowuRHYo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:54:45.935
+!MESSAGE executing callback sts4.classpath.kowuRHYo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:59:13.644
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:59:13.649
+!MESSAGE classpath=97 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:59:13.650
+!MESSAGE buffering callback sts4.classpath.kowuRHYo richardsalgo false 97
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:59:13.651
+!MESSAGE executing callback sts4.classpath.kowuRHYo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-20 20:59:13.661
+!MESSAGE executing callback sts4.classpath.kowuRHYo SUCCESS [done]

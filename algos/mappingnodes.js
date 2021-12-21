@@ -1,0 +1,87 @@
+// Given a list of itineraries, find the proper path of the trip. 
+// A list of itineraries will be an array of arrays, where the inner array will always be length two. 
+// For example, here is an example list of itineraries: [ ['LAX', 'SFO'], ['ICN', 'LAX'], ['SJC', 'ICN'] ].
+
+// The first element in each inner array is the "from" airport, and the latter is the "to" airport. 
+// So, ['LAX', 'SFO'] means "from LAX to SFO." Running with this example, given this list of itineraries,
+// your code should then print out 'SJC -> ICN -> LAX -> SFO', or you can just comma-separate 
+// those airports if you don't like the arrows. Whatever method you choose, 
+// you should produce the proper route of the trip. It's guaranteed that the itineraries 
+// have exactly one start airport, and exactly one end airport, and that there aren't any loops. 
+// Basically, the itinerary will form a single linked list.
+
+// return a single string of the mapped itineraries
+
+function mappingItineraries(arr) {
+    // your code here
+}
+
+console.log(mappingItineraries( [  ['ICN', 'LAX'], ['LAX', 'SFO'], ['SJC', 'ICN'], ['NYU', 'SJC'], ['AMS', 'NYU'] ]));
+// AMS -> NYU -> SJC -> ICN -> LAX -> SFO
+
+//Jacob
+function mappingItineraries(arr) {
+    var dict = {};
+    var finalString = "";
+    for (var i = 0; i < arr.length; i++){
+        if (dict[arr[i][0]]){ //This should give us a dictionary with the keys being the airports
+            dict[arr[i][0]]++; //The number is the number of times the airport appears in the array
+        }
+        else {
+            dict[arr[i][0]] = 1;
+        }
+        if (dict[arr[i][1]]){
+            dict[arr[i][1]]++;
+        }
+        else {
+            dict[arr[i][1]] = 1;
+        }
+    }
+    var j = 0; //We're going to declare j out here so we can use it later on
+    for (j; j < arr.length; j++){
+        if (dict[arr[j][0]] == 1){ //If any in the first index only show up once in the dictionary
+            finalString += arr[j][0] + " --> "; //This gets us our starting point
+            break;
+        }
+    }
+    while (dict[arr[j][1]] == 2){ //The exit condition is the second value in the array only showing up once in the dictionary
+        for (var i = 0; i < arr.length; i++){ //Now we keep track of that value and find where its counterpart is in the first slot
+            if (arr[j][1] == arr[i][0]){
+                j = i;
+                finalString += arr[i][0] + " --> ";
+                break;
+            }
+        }
+    }
+    finalString += arr[j][1]; //Now we add the last stop
+    return finalString;
+}
+
+//Dunavan
+const mappingItineraries = (arr) => {
+    let front;
+    let tripDict ={};
+    let itinerary="";
+
+    for(let i = 0; i < arr.length; i++){
+        let j=0;
+        for(j; j < arr.length; j++){
+            if(!tripDict[arr[j][0]]){
+                tripDict[arr[j][0]]=arr[j][1];
+            }
+            if(arr[j][1] === arr[i][0]){
+                break;
+            }
+        }
+        if(j === arr.length){
+            front = arr[i][0];
+        }
+    }
+    let current=front;
+    itinerary+= front;
+    for(let i = 0; i < arr.length; i++){
+        itinerary +=  " -> " + tripDict[current];
+        current = tripDict[current];
+    }
+    return itinerary;
+}
