@@ -4,9 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Index and Input</title>
 </head>
 <body>
-
+	<div><h1>${ }</h1>
+	</div>
 </body>
 </html>
